@@ -290,18 +290,7 @@ a {
     width: 150px; }
 
 .main {
-  background: white;
-  height: 100%;
-  position: relative;
-  top: 70px;
-  z-index: 20;
-  background: white;
-  height: 100vh;
-  position: relative;
-  top: 80px;
-  z-index: 40;
-  width: 100%;
-  padding: 40px; }
+  padding: 100px 40px 40px; }
 
 .nav-toggle {
   position: fixed;
