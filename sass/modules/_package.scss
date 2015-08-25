@@ -1,16 +1,33 @@
 .package {
 
-	@include column(32%);
 	text-align: center;
-	margin: 0 4px;
+	display: block;
+    width: 100%;
+    margin: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
     border: 1px solid gray;
     border-radius: 5px;
+	
+	@include MQ(M) {
+		
+		@include column(32%);
+		margin: 0 4px;
+	}
+
+	&__heading {
+		
+		font-size: 1.5em;
+	    margin-bottom: 5px;
+	}
 
 
 	&__price {
 		
 		padding: 10px 0;
 		color: white;
+		margin-bottom: 0;
 
 		background: #3e4f6a;
 		background: -webkit-linear-gradient(top, #475975, #364761);
@@ -19,6 +36,7 @@
 		background: -ms-linear-gradient(top, #475975, #364761);
 		background: linear-gradient(top, #475975, #364761);
 	}
+
 
 	&__level {
 

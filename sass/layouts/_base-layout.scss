@@ -19,14 +19,14 @@
 // FONTS
 
 html, body {
-	font-family: "Vollkorn", sans-serif, arial;
-	font-weight: 400;
+	font-family: "Open Sans", sans-serif, arial;
+	font-weight: 600;
 	color: #2c2c2c;
 }
 
 h1, h2, h3, h4, h5, h6 {
 
-	font-family: "Vollkorn", sans-serif, arial;
+	font-family: Vollkorn, sans-serif, arial;
 	font-weight: 400;	
 }
 
@@ -55,8 +55,34 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	&__heading {
-	
+		
+		font-size: 2em;
 		text-align: center;
+		color: #40404C;
+
+		@include MQ(S) {
+
+			font-size: 3em;
+		}
+
+		@include MQ(M) {
+
+			font-size: 4em;
+		}
+	}
+
+	&__heading--has-subheading {
+
+		@extend .section__heading;
+		margin-bottom: 5px;
+	}
+
+	&__subheading {
+
+		color: $secondary-color;
+		font-size: 1.5em;
+		margin-top: 0;
+		margin-bottom: 50px;
 	}
 
 }

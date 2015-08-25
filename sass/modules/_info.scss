@@ -4,16 +4,24 @@
 		
 		padding: 20px;
 		font-size: 20px;
-		border-bottom: 1px solid gray;
+		font-weight: 600;
 
-		&:last-of-type {
+		&:last-of-type .info__answer {
 			border: none;
 		}
 	}
 
+
 	&__answer {
 		display: block;
-		padding: 10px 0;
+		font-weight: 400;
+		color: #4c4c4c;
+		border-bottom: 1px solid #BBBBBB;
+		margin: 0 50px;
+		padding-bottom: 30px;
+		
 		
 	}
+
+
 }

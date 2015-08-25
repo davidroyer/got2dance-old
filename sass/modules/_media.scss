@@ -39,7 +39,7 @@
 	}
 
 
-	&__subheading {
+	&__content__cover {
 
 		display: none;
 		
@@ -60,7 +60,8 @@
 		@include circle-image(55px);
 		
 		@include MQ(M) {
-
+			
+			position: static;
 			@include circle-image(300px);
 		}
 	}
@@ -68,9 +69,20 @@
 
 	& i {
 
-		font-size: 28px;
-		vertical-align: middle;
-		position: absolute;
-		right: 20px;
+		vertical-align: text-bottom;
+	    position: absolute;
+	    right: 20px;
+	    font-size: 33px;
+	    background-color: #40526B;
+	    color: white;
+	    padding: 2px;
+	    box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
+	    border-radius: 50%;
+	    top: 15px;
+
+		@include MQ(M) {
+
+			display: none;
+		}
 	}
 }
