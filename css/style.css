@@ -226,7 +226,6 @@ h1, h2, h3, h4, h5, h6 {
 .media {
   width: 100%;
   text-align: center;
-  margin: 0 4px;
   display: block;
   margin-bottom: 20px;
   position: relative;
@@ -325,7 +324,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #4c4c4c;
   border-bottom: 1px solid #BBBBBB;
-  margin: 0 50px;
   padding-bottom: 30px; }
 
 html {
