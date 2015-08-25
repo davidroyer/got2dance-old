@@ -1,0 +1,83 @@
+// CLEARFIX
+
+
+
+.clearfix {
+	zoom: 1; /* ie 6/7 */
+
+	&:after {
+		clear: both;
+	}
+
+	&:after,&:before {
+		content: "";
+		display: table;
+	}
+}
+
+
+// FONTS
+
+html, body {
+	font-family: "Vollkorn", sans-serif, arial;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: "Vollkorn", sans-serif, arial;
+	font-weight: 400;	
+}
+
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+// SECTION
+
+.section {
+	
+	text-align: center;
+	@extend .clearfix;
+	padding: 0 0 50px 0;
+	border-bottom: 1px solid gray;
+
+
+	&:last-of-type {
+		
+		border: none;
+	}
+
+	&__heading {
+	
+		text-align: center;
+	}
+
+}
+
+
+
+// BUTTONS
+
+.button {
+	
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+
+	&--ghost {
+		
+		@extend .button;
+		border: 2px solid #3e4f6a;
+		color: #3e4f6a;
+	}
+}
+
+.main {
+	@extend .clearfix;
+}

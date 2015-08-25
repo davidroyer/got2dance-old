@@ -1,0 +1,17 @@
+.footer {
+	
+	background: #40526b;
+	padding: 3em 1.618em;
+	width: 100%;
+	text-align: center;
+
+	&__item__heading {
+		
+		color: white;
+	}
+
+	&__item__info {
+
+		color: rgba(255, 255, 255, 0.4);
+	}
+}

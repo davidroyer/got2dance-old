@@ -1,0 +1,30 @@
+.package {
+
+	@include column(32%);
+	text-align: center;
+	margin: 0 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+
+	&__price {
+		
+		padding: 10px 0;
+		color: white;
+
+		background: #3e4f6a;
+		background: -webkit-linear-gradient(top, #475975, #364761);
+		background: -moz-linear-gradient(top, #475975, #364761);
+		background: -o-linear-gradient(top, #475975, #364761);
+		background: -ms-linear-gradient(top, #475975, #364761);
+		background: linear-gradient(top, #475975, #364761);
+	}
+
+	&__level {
+
+	    margin-top: 0;
+	    padding: 10px;
+	    background-color: #40404C;
+	    color: white;
+	}
+}
