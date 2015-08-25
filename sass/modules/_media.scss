@@ -1,19 +1,76 @@
 .media {
 	
-	width: 30%;
-	display: inline-block;
-	text-align: center;
+	width: 100%;
+    text-align: center;
     margin: 0 4px;
-    vertical-align: top;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+    @extend %shadow;
+
+	@include MQ(M) {
+		
+		width: 30%;
+		display: inline-block;
+		text-align: center;
+	    margin: 0 4px;
+	    vertical-align: top;
+	}
+	
 
 	&__link {
 
 	}
 
+	
+	&__heading {
+		
+		margin: 0;
+		display: inline-block;
+
+		@include MQ(M) {
+			
+			display: block;
+		}
+	}
+
+
+	&__subheading {
+
+		display: none;
+		
+		@include MQ(M) {
+			
+			display: block;
+		}
+	}
+
+
 	&__image {
 		
+		display: inline-block;		
+		position: absolute;
+		top: 5px;
+		left: 8px;
 		@extend %shadow;
-		@include circle-image(300px);
+		@include circle-image(55px);
+		
+		@include MQ(M) {
 
+			@include circle-image(300px);
+		}
+	}
+
+
+	& i {
+
+		font-size: 28px;
+		vertical-align: middle;
+		position: absolute;
+		right: 20px;
 	}
 }
