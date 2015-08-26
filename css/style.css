@@ -387,8 +387,8 @@ a {
   padding: 8px 10px;
   background-color: white;
   z-index: 999;
-  transition: transform .3s ease-in-out;
-  -webkit-transition: transform .3s ease-in-out; }
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
   .nav-toggle.nav--open {
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
