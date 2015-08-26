@@ -218,6 +218,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3em 1.618em;
   width: 100%;
   text-align: center; }
+  .footer__logo {
+    width: 200px;
+    height: auto; }
   .footer__item__heading {
     color: white; }
   .footer__item__info {
@@ -366,7 +369,8 @@ a {
         font-size: 1.7rem;
         padding-top: 8px; } }
   .header__logo {
-    width: 150px; }
+    width: 150px;
+    height: auto; }
 
 .main {
   padding: 100px 20px 20px; }
