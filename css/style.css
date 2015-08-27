@@ -341,7 +341,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .profile {
   border-bottom: 1px solid #DDD;
-  padding: 80px 20px 40px 20px; }
+  padding: 80px 0 40px 0; }
+  @media only screen and (min-width: 680px) {
+    .profile {
+      padding: 80px 20px 40px 20px; } }
   .profile:first-of-type {
     padding-top: 20px; }
   @media only screen and (min-width: 680px) {
@@ -353,6 +356,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2.5em;
     margin-top: 0; }
   .profile__image {
+    width: 100%;
     border-radius: 50%;
     background-color: #ECF0F1;
     max-width: 300px;

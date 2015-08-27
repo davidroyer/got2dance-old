@@ -2,7 +2,13 @@
 	
 	@extend .clearfix;
 	border-bottom: 1px solid #DDD;
-	padding: 80px 20px 40px 20px;
+	
+	padding: 80px 0 40px 0;
+
+	@include MQ(M) {
+
+		padding: 80px 20px 40px 20px;
+	}
 
 	&:first-of-type {
 
@@ -29,7 +35,8 @@
 	
 
 	&__image {
-
+		
+		width: 100%;
 		border-radius: 50%;
 		background-color: #ECF0F1;
 		max-width: 300px;
