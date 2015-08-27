@@ -1,0 +1,45 @@
+.hero {
+
+	
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	background-position: center center;
+	height: 220px;
+
+	@include MQ(S) {
+
+		height: 250px;
+	}
+
+
+	@include MQ(M) {
+
+		height: 350px;
+	}
+
+
+	@include MQ(S) {}
+	
+
+	&.home {
+
+		background-image: url("../img/Got2Dance-Main-Header.jpg");
+	}
+
+	&.lessons {
+
+		background-image: url("../img/Ballroom-Partners.jpg");
+	}
+
+	&.classes {
+
+		background-image: url("../img/Classes.jpg");
+	}
+
+	&.weddings {
+
+		background-image: url("../img/Wedding.jpg");
+	}
+}

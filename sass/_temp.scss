@@ -53,15 +53,15 @@ a {
     }
 }
 
-.main {
-    padding: 100px 20px 20px;
+// .main {
+//     padding: 20px 20px;
 
-    @include MQ(M) {
+//     @include MQ(M) {
 
-        padding: 100px 40px 40px;
-    }
+//         padding: 100px 40px 40px;
+//     }
    
-}
+// }
 
 .nav-toggle {
     position: fixed;

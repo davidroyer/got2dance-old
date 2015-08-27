@@ -106,10 +106,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
+
 	@extend .clearfix;
+	padding: 20px 20px;
+
+	@include MQ(M) {
+
+	    padding: 40px 40px;
+	}
 }
 
-
+    
+    
 // * HELPERS * //
 
 .hide__medium-up {
