@@ -108,3 +108,13 @@ h1, h2, h3, h4, h5, h6 {
 .main {
 	@extend .clearfix;
 }
+
+
+// * HELPERS * //
+
+.hide__medium-up {
+
+	@include MQ(M) {
+		display: none;
+	}
+}
