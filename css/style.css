@@ -438,14 +438,11 @@ a {
     font-size: 1.4rem;
     padding-top: 8px;
     margin: 0;
-    padding-left: 30px; }
+    padding-left: 20px; }
     @media (min-width: 500px) {
       .header__site-title {
         font-size: 1.7rem;
         padding-top: 8px; } }
-  .header__logo {
-    width: 150px;
-    height: auto; }
 
 .nav-toggle {
   position: fixed;
