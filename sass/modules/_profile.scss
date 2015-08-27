@@ -1,0 +1,17 @@
+.profile {
+	
+	@extend .clearfix;
+	border-bottom: 1px solid gray;
+	    padding: 20px 20px 40px 20px;
+
+	&__info {
+
+		width: 50%;
+		float: right;
+	}
+
+	&__image {
+		float: left;
+		width: 300px;
+	}
+}
