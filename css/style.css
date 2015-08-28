@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   .section:last-of-type {
     border: none; }
   .section__heading, .section__heading--has-subheading {
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
     color: #40404C; }
     @media only screen and (min-width: 430px) {
@@ -268,6 +268,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .media {
   width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   display: block;
   margin-bottom: 20px;
@@ -437,8 +440,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 10px;
   background-color: white;
   z-index: 999;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out; }
+  -webkit-transition: all .2s ease 2s;
+  transition: all .2s ease 2s; }
   .nav-toggle.rotate--icon {
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -451,8 +454,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #545767;
     font-size: 24px;
     z-index: 999;
-    transition: all .2s ease;
-    -webkit-transition: all .2s ease; }
+    transition: all .2s ease .3s;
+    -webkit-transition: all .2s ease .3s; }
   .nav-toggle__container {
     background-color: #545767;
     height: 80px;
@@ -484,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   visibility: visible;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
-  transition: all .3s ease .3s;
+  transition: all .3s ease;
   transform: translateX(205px);
   -webkit-transform: translateX(205px);
   -moz-transform: translateX(205px);
