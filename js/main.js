@@ -55,8 +55,8 @@
     navToggle.on('click', function() {
 
     	 event.preventDefault();
-
-    	 navToggle.toggleClass('rotate--icon').one(transitionEvent,
+    	 
+    	 nav.toggleClass('nav--open').one(transitionEvent,
 
 	 		function(){
 	 			toggleMenu();
@@ -64,7 +64,7 @@
     });
 
     function toggleMenu() {
-    	nav.toggleClass('nav--open');
+    	navToggle.toggleClass('rotate--icon');
     }
 
 
