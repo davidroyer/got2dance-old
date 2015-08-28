@@ -11,15 +11,17 @@
     transition: all .3s ease-in-out;
     
 
-    &.nav--open {
+    &.rotate--icon {
         transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
-        background-color: #40526B;
+        background-color: #A09B9B;
+
 
         .nav-toggle__icon {
-            color: white;
+            color: #40526B;
+            
         }
 
     }
@@ -29,6 +31,8 @@
         color: #545767;
         font-size: 24px;
         z-index: 999;
+        transition: all .4s ease;
+        -webkit-transition: all .4s ease-in-out;
         
 
     }

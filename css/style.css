@@ -439,18 +439,20 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 999;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
-  .nav-toggle.nav--open {
+  .nav-toggle.rotate--icon {
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    background-color: #40526B; }
-    .nav-toggle.nav--open .nav-toggle__icon {
-      color: white; }
+    background-color: #A09B9B; }
+    .nav-toggle.rotate--icon .nav-toggle__icon {
+      color: #40526B; }
   .nav-toggle__icon {
     color: #545767;
     font-size: 24px;
-    z-index: 999; }
+    z-index: 999;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease-in-out; }
   .nav-toggle__container {
     background-color: #545767;
     height: 80px;

@@ -5,14 +5,38 @@
     
     
     var navToggle = $('.nav-toggle');
+    var nav = $('.nav');
     
-    navToggle.on('click', openNavDrawer);
     
+    
+
+    // function rotateIcon() {
+    // 	$('.nav-toggle').toggleClass('nav--open');
+    // }
+
     function openNavDrawer(event) {
         event.preventDefault();	
-		$('.nav').toggleClass('nav--open');
-		$('.main').toggleClass('main--open');
-        $('.nav-toggle').toggleClass('nav--open');
+        navToggle.toggleClass('rotate--icon');
+        nav.toggleClass('nav--open');
+
     }
-    
+
+  //   function closeNavDrawer(event) {
+  //       event.preventDefault();	
+  //       navToggle.removeClass('nav--open');
+  //       navToggle.on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+
+		// 	$('.nav').toggleClass('nav--open');
+		// });
+
+  //   }
+
+
+
+    navToggle.on('click', openNavDrawer);
+
 })();
+
+
+
+
