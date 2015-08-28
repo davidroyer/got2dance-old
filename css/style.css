@@ -242,10 +242,24 @@ h1, h2, h3, h4, h5, h6 {
   .footer__logo {
     width: 200px;
     height: auto; }
+  @media only screen and (min-width: 680px) {
+    .footer__list {
+      display: inline-block;
+      width: 29%; }
+      .footer__list--center {
+        display: inline-block;
+        width: 40%; } }
   .footer__item__heading {
     color: white; }
+    .footer__item__heading h3 {
+      margin: 2em 0 0 0;
+      font-size: 1.3em; }
+      @media only screen and (min-width: 900px) {
+        .footer__item__heading h3 {
+          font-size: 1.5em; } }
   .footer__item__info {
-    color: rgba(255, 255, 255, 0.4); }
+    color: #01D4A7;
+    margin-bottom: 2em; }
 
 .header {
   background: #40526b;

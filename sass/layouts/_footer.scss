@@ -11,15 +11,44 @@
 		height: auto;
 	}
 
+	&__list {
+
+		@include MQ(M) {
+
+			display: inline-block;
+			width: 29%;
+
+			&--center {
+				
+				display: inline-block;
+				width: 40%
+			}
+		}
+
+
+	}
+
 
 	&__item__heading {
 		
 		color: white;
+		
+		& h3 {
+
+			margin: 2em 0 0 0;
+			font-size: 1.3em;
+
+			@include MQ(L) {
+
+				font-size: 1.5em;
+			}
+		}
 	}
 
 
 	&__item__info {
 
-		color: rgba(255, 255, 255, 0.4);
+		color: #01D4A7;
+		margin-bottom: 2em;
 	}
 }
