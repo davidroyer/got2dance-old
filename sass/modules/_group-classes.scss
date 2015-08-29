@@ -33,7 +33,7 @@
 	&__heading {
 		
 		margin: 0;
-		display: inline-block;
+		display: block;
 		font-size: 1.4em;
 		padding-top: 25px;
 
@@ -58,15 +58,12 @@
 
 	&__image {
 		
-		display: inline-block;		
-		float: left;
 		@extend %shadow;
-		@include circle-image(25%);
+		@include circle-image(100px);
 		
 		@include MQ(M) {
 			
-			position: static;
-			float: none;
+
 			@include circle-image(300px);
 		}
 	}
@@ -95,7 +92,6 @@
 
 	&__list {
 		
-		margin-top: 50px;
 		clear: both;
 
 		@include MQ(M) {
