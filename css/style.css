@@ -642,8 +642,9 @@ h1, h2, h3, h4, h5, h6 {
   .group-classes__heading {
     margin: 0;
     display: block;
-    font-size: 1.4em;
-    padding-top: 25px; }
+    font-size: 1.7em;
+    padding-top: 25px;
+    margin-bottom: 10px; }
     @media only screen and (min-width: 680px) {
       .group-classes__heading {
         display: block;

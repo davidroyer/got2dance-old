@@ -34,8 +34,9 @@
 		
 		margin: 0;
 		display: block;
-		font-size: 1.4em;
+		font-size: 1.7em;
 		padding-top: 25px;
+		margin-bottom: 10px;
 
 		@include MQ(M) {
 			
