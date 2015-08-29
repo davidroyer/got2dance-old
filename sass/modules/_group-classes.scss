@@ -1,4 +1,4 @@
-.media {
+.group-classes {
 	
 	width: 100%;
 	max-width: 400px;
@@ -15,15 +15,11 @@
     @extend %shadow;
     transition: all .3s ease-in-out;
 	
-    &:hover {
-
-    	background-color: #3DDFBB;
-    }
+   
 
 	@include MQ(M) {
 		
-		width: 30%;
-
+		width: 48%;
 		display: inline-block;
 		text-align: center;
 	    margin: 0 4px;
@@ -31,9 +27,7 @@
 	}
 	
 
-	&__link {
 
-	}
 
 	
 	&__heading {
@@ -96,12 +90,6 @@
 		}
 	}
 
-
-	&.classes {
-
-		width: 48%;
-		display: inline-block;
-	}
 
 
 	&__list {

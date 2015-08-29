@@ -2,18 +2,26 @@
 	
 	@extend .clearfix;
 	border-bottom: 1px solid #DDD;
-	
 	padding: 80px 0 40px 0;
+
 
 	@include MQ(M) {
 
 		padding: 80px 20px 40px 20px;
 	}
 
+
 	&:first-of-type {
 
 		padding-top: 20px;
 	}
+
+
+	&:last-of-type {
+	
+		border-bottom: none;
+	}
+
 
 	&__info {
 

@@ -31,7 +31,8 @@
 	&__input, &__textarea {
 
 		border: 2px solid #ccc;
-		width: 80%;
+		width: 100%;
+		max-width: 400px;
 	    padding: 0 .5em;
 
 

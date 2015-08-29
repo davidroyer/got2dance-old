@@ -9,6 +9,14 @@
 		&:last-of-type .info__answer {
 			border: none;
 		}
+
+		@include MQ(L) {
+
+			display: inline-block;
+			width: 49%;
+			padding: 40px;
+			vertical-align: middle;;
+		}
 	}
 
 
@@ -16,7 +24,7 @@
 		display: block;
 		font-weight: 400;
 		color: #4c4c4c;
-		border-bottom: 1px solid #BBBBBB;
+		// border-bottom: 1px solid #BBBBBB;
 		
 		padding-bottom: 30px;
 		

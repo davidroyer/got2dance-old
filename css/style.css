@@ -162,7 +162,7 @@ p {
   color: #4c4c4c;
   font-weight: 400; }
 
-.media, .media__image {
+.media, .media__image, .group-classes, .group-classes__image {
   box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52); }
 
 .clearfix, .section, .section--no-hero, .main, .profile {
@@ -186,6 +186,9 @@ h1, h2, h3, h4, h5, h6 {
 .row {
   margin-left: auto;
   margin-right: auto; }
+
+.small-hr {
+  width: 70%; }
 
 .section, .section--no-hero {
   text-align: center;
@@ -310,7 +313,8 @@ h1, h2, h3, h4, h5, h6 {
       vertical-align: top; } }
   .media__heading {
     margin: 0;
-    display: inline-block; }
+    display: inline-block;
+    font-size: 1.5em; }
     @media only screen and (min-width: 680px) {
       .media__heading {
         display: block; } }
@@ -345,6 +349,13 @@ h1, h2, h3, h4, h5, h6 {
     @media only screen and (min-width: 680px) {
       .media i {
         display: none; } }
+  .media.classes {
+    width: 48%;
+    display: inline-block; }
+  .media__list {
+    margin-top: 20px; }
+  .media__list-item {
+    padding: 20px 0; }
 
 .package {
   text-align: center;
@@ -388,11 +399,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
   .info__item:last-of-type .info__answer {
     border: none; }
+  @media only screen and (min-width: 900px) {
+    .info__item {
+      display: inline-block;
+      width: 49%;
+      padding: 40px;
+      vertical-align: middle; } }
 .info__answer {
   display: block;
   font-weight: 400;
   color: #4c4c4c;
-  border-bottom: 1px solid #BBBBBB;
   padding-bottom: 30px; }
 
 .profile {
@@ -403,6 +419,8 @@ h1, h2, h3, h4, h5, h6 {
       padding: 80px 20px 40px 20px; } }
   .profile:first-of-type {
     padding-top: 20px; }
+  .profile:last-of-type {
+    border-bottom: none; }
   @media only screen and (min-width: 680px) {
     .profile__info {
       width: 60%;
@@ -586,7 +604,8 @@ h1, h2, h3, h4, h5, h6 {
     display: none; }
   .form__input, .form__textarea {
     border: 2px solid #ccc;
-    width: 80%;
+    width: 100%;
+    max-width: 400px;
     padding: 0 .5em; }
     @media only screen and (min-width: 680px) {
       .form__input, .form__textarea {
@@ -599,6 +618,70 @@ h1, h2, h3, h4, h5, h6 {
     clear: both; }
     .form__submit input {
       background-color: white; }
+
+.group-classes {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
+  background-color: white;
+  border-radius: 3px;
+  padding: 20px;
+  transition: all .3s ease-in-out; }
+  @media only screen and (min-width: 680px) {
+    .group-classes {
+      width: 48%;
+      display: inline-block;
+      text-align: center;
+      margin: 0 4px;
+      vertical-align: top; } }
+  .group-classes__heading {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5em; }
+    @media only screen and (min-width: 680px) {
+      .group-classes__heading {
+        display: block; } }
+  .group-classes__content__cover {
+    display: none; }
+    @media only screen and (min-width: 680px) {
+      .group-classes__content__cover {
+        display: block; } }
+  .group-classes__image {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    border-radius: 50%;
+    width: 55px; }
+    @media only screen and (min-width: 680px) {
+      .group-classes__image {
+        position: static;
+        border-radius: 50%;
+        width: 300px; } }
+  .group-classes i {
+    vertical-align: text-bottom;
+    position: absolute;
+    right: 20px;
+    font-size: 33px;
+    background-color: #40526B;
+    color: white;
+    padding: 2px;
+    box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
+    border-radius: 50%;
+    top: 15px; }
+    @media only screen and (min-width: 680px) {
+      .group-classes i {
+        display: none; } }
+  .group-classes__list {
+    margin-top: 20px; }
+  .group-classes__list-item {
+    padding: 20px 0; }
 
 html {
   box-sizing: border-box;
