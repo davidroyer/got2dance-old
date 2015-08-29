@@ -525,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     overflow-y: auto; }
   .nav__list-item {
-    margin: 10px 0; }
+    margin: 3px 0; }
     .nav__list-item:last-of-type {
       padding-bottom: 100px; }
   .nav__link {
