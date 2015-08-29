@@ -34,11 +34,13 @@
 		
 		margin: 0;
 		display: inline-block;
-		font-size: 1.5em;
+		font-size: 1.4em;
+		padding-top: 25px;
 
 		@include MQ(M) {
 			
 			display: block;
+			padding: none;
 		}
 	}
 
@@ -57,15 +59,14 @@
 	&__image {
 		
 		display: inline-block;		
-		position: absolute;
-		top: 5px;
-		left: 8px;
+		float: left;
 		@extend %shadow;
-		@include circle-image(55px);
+		@include circle-image(25%);
 		
 		@include MQ(M) {
 			
 			position: static;
+			float: none;
 			@include circle-image(300px);
 		}
 	}
@@ -94,7 +95,13 @@
 
 	&__list {
 		
-		margin-top: 20px;
+		margin-top: 50px;
+		clear: both;
+
+		@include MQ(M) {
+
+			margin-top: 20px;
+		}
 	}
 	
 
