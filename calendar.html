@@ -66,16 +66,17 @@
         </header>
         
         <main class="main">
-            
-            <section class="section">
+
+            <section class="section--no-hero">
                 <div class="row">
-                    <h2 class="section__heading">Calendar</h2>
-                                        
+                    <h2 class="section__heading--has-subheading">Our Studio Calendar</h2>
+                    <h4 class="section__subheading">An asterisk* signifies a mat is needed for that class</h4>                   
                     <div id='calendar'></div>
 
                     <div id="mobile-calendar">
                     <h1></h1>
                     <ul id="eventlist">
+                
                     </ul>
                     </div>
                     
@@ -126,12 +127,27 @@
             </ul>
         </footer>
 
+        <div id="fullCalModal" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 id="modalTitle" class="modal-title"></h4>
+                  </div>
+                  <div id="modalBody" class="modal-body"></div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+            </div>
+        </div>
+
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/moment.min.js"></script>
         <script src='js/vendor/fullcalendar.js'></script>
         <script src='js/vendor/gcal.js'></script>
         <script type="text/javascript">
+               
                $(document).ready(function() {
                         
                 $('#calendar').fullCalendar({
@@ -151,29 +167,37 @@
                     // My ID
                     events: '5hgkoqu9stlv78k7tguskqpdsc@group.calendar.google.com',
                     
-                     eventClick:  function(event) {
                     
-                    $('#modalTitle').html(event.title);
-                    $('#modalBody').html(event.description);
-                    $('#eventUrl').attr('href',event.url);
-                    $('#fullCalModal').modal();
-                    return false;
+
+                    // eventRender: function(event, element) {
+                    //     element.on('click', function (e) {
+                    //         e.preventDefault();
+                    //     });
+
+                     
+                    // }
+
+                    eventClick:  function(event) {
+                        // if (event.url) {
+                        //     return false;
+                        // }
+                        $('#modalTitle').html(event.title);
+                        $('#modalBody').html(event.description);
+                        $('#eventUrl').attr('href',event.url);
+                        $('#fullCalModal').modal();
+                        
                     }
                   });
+
+
                 });
+
+
 
 
         </script>  
-        <script src="js/vendor/index.js" type="text/javascript"></script>
-        <script type="text/javascript">
-           jQuery(function ($) {
-               $('#eventlist').gCalReader({
-                 calendarId:'5hgkoqu9stlv78k7tguskqpdsc@group.calendar.google.com',
-                 apiKey:'AIzaSyBEDQhf7itA6iAPJ-p0ENiVrO4B6E4xXSU',
-                 sortDescending: false
-                });
-           });
-        </script>
+   
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -183,6 +207,16 @@
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        <script src="js/vendor/gcal-import.js" type="text/javascript"></script>
+        <script type="text/javascript">
+           jQuery(function ($) {
+               $('#eventlist').gCalReader({
+                 calendarId:'5hgkoqu9stlv78k7tguskqpdsc@group.calendar.google.com',
+                 apiKey:'AIzaSyBEDQhf7itA6iAPJ-p0ENiVrO4B6E4xXSU',
+                 sortDescending: false
+                });
+           });
         </script>
     </body>
 </html>
