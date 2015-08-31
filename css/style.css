@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
   .section:last-of-type, .section--no-hero:last-of-type {
     border: none; }
   .section__heading, .section__heading--has-subheading {
-    font-size: 3em;
+    font-size: 2.7em;
     text-align: center;
     color: #40404C;
     margin-top: 0; }
