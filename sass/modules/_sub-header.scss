@@ -1,0 +1,15 @@
+.sub-header {
+	
+	position: relative;
+	top: 80px;
+	text-align: center;
+	font-size: 2em;
+	background-color: #D8D8D8;
+	width: 100%;
+	color: white;
+
+	& .section__heading {
+
+		margin: 0;
+	}
+}

@@ -24,8 +24,13 @@
 	
 
 	&.home {
+		
+		background-image: url("../img/hero-home-small.jpg");
+		@include MQ(M) {
 
-		background-image: url("../img/Got2Dance-Main-Header.jpg");
+			background-image: url("../img/Got2Dance-Main-Header.jpg");
+		}
+		
 	}
 
 	&.lessons {

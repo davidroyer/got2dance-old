@@ -64,9 +64,10 @@ h1, h2, h3, h4, h5, h6 {
 
 	&__heading {
 		
-		font-size: 1.6em;
+		font-size: 3em;
 		text-align: center;
 		color: #40404C;
+		margin-top: 0;
 
 		@include MQ(S) {
 

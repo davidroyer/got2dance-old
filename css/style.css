@@ -199,9 +199,10 @@ h1, h2, h3, h4, h5, h6 {
   .section:last-of-type, .section--no-hero:last-of-type {
     border: none; }
   .section__heading, .section__heading--has-subheading {
-    font-size: 1.6em;
+    font-size: 3em;
     text-align: center;
-    color: #40404C; }
+    color: #40404C;
+    margin-top: 0; }
     @media only screen and (min-width: 430px) {
       .section__heading, .section__heading--has-subheading {
         font-size: 3em; } }
@@ -340,11 +341,13 @@ h1, h2, h3, h4, h5, h6 {
     right: 20px;
     font-size: 33px;
     background-color: #40526B;
+    background-color: #8E959E;
     color: white;
     padding: 2px;
     box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
     border-radius: 50%;
-    top: 15px; }
+    top: 15px;
+    font-family: 'Material Icons'; }
     @media only screen and (min-width: 680px) {
       .media i {
         display: none; } }
@@ -426,8 +429,8 @@ h1, h2, h3, h4, h5, h6 {
       float: right;
       padding: 20px; } }
   .profile__name {
-    font-size: 2.2em;
-    margin-top: 0; }
+    font-size: 1.9em;
+    margin: 0; }
     @media only screen and (min-width: 680px) {
       .profile__name {
         font-size: 2.5em; } }
@@ -460,7 +463,10 @@ h1, h2, h3, h4, h5, h6 {
     .hero {
       height: 350px; } }
   .hero.home {
-    background-image: url("../img/Got2Dance-Main-Header.jpg"); }
+    background-image: url("../img/hero-home-small.jpg"); }
+    @media only screen and (min-width: 680px) {
+      .hero.home {
+        background-image: url("../img/Got2Dance-Main-Header.jpg"); } }
   .hero.lessons {
     background-image: url("../img/Ballroom-Partners.jpg"); }
   .hero.classes {
@@ -682,6 +688,23 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 20px; } }
   .group-classes__list-item {
     padding: 20px 0; }
+
+#map_canvas {
+  width: 85%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sub-header {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  font-size: 2em;
+  background-color: #D8D8D8;
+  width: 100%;
+  color: white; }
+  .sub-header .section__heading, .sub-header .section__heading--has-subheading {
+    margin: 0; }
 
 html {
   box-sizing: border-box;

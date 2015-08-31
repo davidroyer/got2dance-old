@@ -234,6 +234,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero-home-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64255,
+		"inputAbbreviatedPath": "\/img\/hero-home-small.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-home-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Jessica.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -296,6 +307,17 @@
 		"initialSize": 1177,
 		"inputAbbreviatedPath": "\/img\/right-arrow.png",
 		"outputAbbreviatedPath": "\/img\/right-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Tango-circle-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21124,
+		"inputAbbreviatedPath": "\/img\/Tango-circle-small.jpg",
+		"outputAbbreviatedPath": "\/img\/Tango-circle-small.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -619,6 +641,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/modules\/_google-map.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/modules\/_google-map.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_google-map.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/modules\/_group-classes.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -740,6 +778,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/modules\/_profile.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/_profile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/modules\/_sub-header.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/modules\/_sub-header.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_sub-header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
