@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/classes.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/classes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/contact.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -511,6 +520,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/lessons.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lessons.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sass\/_temp.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -568,6 +586,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/base\/_normalize.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/layouts\/_base-layout.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/layouts\/_base-layout.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_base-layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -687,6 +721,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/modules\/_group-classes.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/modules\/_group-classes.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_group-classes.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/modules\/_hero.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -712,22 +762,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/modules\/_info.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/_info.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/modules\/_media.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/modules\/_media.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -878,6 +912,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/weddings.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/weddings.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
