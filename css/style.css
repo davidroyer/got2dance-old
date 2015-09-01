@@ -246,9 +246,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3em 1.618em;
   width: 100%;
   text-align: center; }
-  .footer__logo {
-    width: 200px;
-    height: auto; }
   @media only screen and (min-width: 680px) {
     .footer__list {
       display: inline-block;
