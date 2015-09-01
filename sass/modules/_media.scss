@@ -22,7 +22,7 @@
 
 	@include MQ(M) {
 		
-		width: 30%;
+		width: 29%;
 
 		display: inline-block;
 		text-align: center;
@@ -30,6 +30,12 @@
 	    vertical-align: top;
 	}
 	
+	@include MQ(L) {
+		
+		width: 29%;
+		margin: 0 15px;
+	}
+
 
 	&__link {
 
