@@ -3,7 +3,7 @@
 	&__item {
 		
 		padding: 20px;
-		font-size: 20px;
+		font-size: $font-size;
 		font-weight: 600;
 
 		&:last-of-type .info__answer {
@@ -23,7 +23,7 @@
 	&__answer {
 		display: block;
 		font-weight: 400;
-		color: #4c4c4c;
+		color: $body-color;
 		// border-bottom: 1px solid #BBBBBB;
 		
 		padding-bottom: 30px;
