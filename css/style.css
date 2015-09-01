@@ -661,13 +661,10 @@ h1, h2, h3, h4, h5, h6 {
     @media only screen and (min-width: 680px) {
       .group-classes__content__cover {
         display: block; } }
-  .group-classes__image {
-    border-radius: 50%;
-    width: 100px; }
-    @media only screen and (min-width: 680px) {
-      .group-classes__image {
-        border-radius: 50%;
-        width: 300px; } }
+  @media only screen and (min-width: 680px) {
+    .group-classes__image {
+      border-radius: 50%;
+      width: 300px; } }
   .group-classes i {
     vertical-align: text-bottom;
     position: absolute;
@@ -752,7 +749,9 @@ div#mobile-calendar div.description {
   font-weight: 700; }
 
 .description {
-  font-weight: 500; }
+  font-size: 19px;
+  color: #353535;
+  font-weight: 400; }
 
 #mobile-calendar li {
   margin-bottom: 20px;

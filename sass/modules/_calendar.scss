@@ -45,7 +45,10 @@ div#mobile-calendar div.description {
   }
 
   .description {
-    font-weight: 500;
+   
+          font-size: $font-size;
+            color: $body-color;
+            font-weight: 400;
   }
 
   #mobile-calendar {
