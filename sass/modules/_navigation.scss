@@ -103,6 +103,11 @@
     &__list-item {
         margin: 3px 0;
 
+
+        @include MQ(XL) {
+
+                margin: 3px 8px;
+            }
         
         
         &:last-of-type {
@@ -119,6 +124,7 @@
         font-size: 20px;
         color: white;
         font-family: Vollkorn; 
+
 
         @include MQ(XL) {
 
@@ -190,10 +196,7 @@
             }
 
 
-            @include MQ(XL) {
 
-                margin: 3px 8px;
-            }
         }
 
          &__link {

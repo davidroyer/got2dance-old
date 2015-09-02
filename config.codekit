@@ -91,6 +91,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/classes-hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57915,
+		"inputAbbreviatedPath": "\/img\/classes-hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/classes-hero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/classes-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116060,
+		"inputAbbreviatedPath": "\/img\/classes-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/classes-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Classes.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -153,6 +175,17 @@
 		"initialSize": 261128,
 		"inputAbbreviatedPath": "\/img\/Dave.png",
 		"outputAbbreviatedPath": "\/img\/Dave.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/David-Jessica-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114280,
+		"inputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -928,7 +961,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/style.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
