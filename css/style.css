@@ -611,6 +611,7 @@ h1, h2, h3, h4, h5, h6 {
     width: initial;
     top: 0;
     right: 0;
+    padding-top: 10px;
     transform: translateX(0);
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
