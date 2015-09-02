@@ -102,6 +102,8 @@
     
     &__list-item {
         margin: 3px 0;
+
+        
         
         &:last-of-type {
             padding-bottom: 100px;
@@ -116,7 +118,12 @@
         font-weight: 400;
         font-size: 20px;
         color: white;
-        font-family: Vollkorn;       
+        font-family: Vollkorn; 
+
+        @include MQ(XL) {
+
+            font-size: 22px;
+        }     
     }
     
 }
@@ -180,6 +187,12 @@
 
             &:last-of-type {
                 padding-right: 0;
+            }
+
+
+            @include MQ(XL) {
+
+                margin: 3px 8px;
             }
         }
 

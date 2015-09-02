@@ -21,6 +21,9 @@ $XL: 	1200px;
   @else if $canvas == L {
    @media only screen and (min-width: $L) { @content; } 
   }
+  @else if $canvas == XL {
+   @media only screen and (min-width: $L) { @content; } 
+  }
 }
 
 

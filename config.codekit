@@ -91,6 +91,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/classes-hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317511,
+		"inputAbbreviatedPath": "\/img\/classes-hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/classes-hero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/classes-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 732028,
+		"inputAbbreviatedPath": "\/img\/classes-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/classes-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Classes.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -98,6 +120,28 @@
 		"initialSize": 220394,
 		"inputAbbreviatedPath": "\/img\/Classes.jpg",
 		"outputAbbreviatedPath": "\/img\/Classes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/classes1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251133,
+		"inputAbbreviatedPath": "\/img\/classes1.jpg",
+		"outputAbbreviatedPath": "\/img\/classes1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/classes2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199788,
+		"inputAbbreviatedPath": "\/img\/classes2.jpg",
+		"outputAbbreviatedPath": "\/img\/classes2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -142,17 +186,6 @@
 		"initialSize": 691075,
 		"inputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
 		"outputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/David-Jessica.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.00936e+06,
-		"inputAbbreviatedPath": "\/img\/David-Jessica.jpg",
-		"outputAbbreviatedPath": "\/img\/David-Jessica.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -263,28 +296,6 @@
 		"initialSize": 64255,
 		"inputAbbreviatedPath": "\/img\/hero-home-small.jpg",
 		"outputAbbreviatedPath": "\/img\/hero-home-small.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/home-hero-1600-mobile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 317511,
-		"inputAbbreviatedPath": "\/img\/home-hero-1600-mobile.jpg",
-		"outputAbbreviatedPath": "\/img\/home-hero-1600-mobile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/home-hero-1600.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 732028,
-		"inputAbbreviatedPath": "\/img\/home-hero-1600.jpg",
-		"outputAbbreviatedPath": "\/img\/home-hero-1600.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -472,6 +483,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/contact-form-scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/contact-form-scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/contact-form-scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/index.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -555,6 +577,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/min\/gcal-min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/min\/gcal-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/modernizr-2.8.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/modernizr-2.8.3.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/modernizr-2.8.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

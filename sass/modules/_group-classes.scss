@@ -1,7 +1,5 @@
 .group-classes {
 	
-	width: 100%;
-	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
     text-align: center;
@@ -14,13 +12,16 @@
     padding: 20px 0;
     @extend %shadow;
     transition: all .3s ease-in-out;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 400px;
 	
    
 
 	@include MQ(M) {
 		
-		width: 46%;
-		display: inline-block;
+		
 		text-align: center;
 	    margin: 0 10px;
 	    vertical-align: top;
@@ -36,7 +37,12 @@
 	}
 
 
-
+	&__row--flex {
+		display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
 	
 	&__heading {
 		
@@ -44,13 +50,20 @@
 		margin: 0;
 		display: block;
 		font-size: 1.7em;
-		padding-top: 25px;
+		
 		margin-bottom: 10px;
 
 		@include MQ(M) {
 			
 			display: block;
 			padding: none;
+			padding-bottom: 25px;
+		}
+
+
+		@include MQ(L) {
+			
+			font-size: 2.2em;
 		}
 	}
 

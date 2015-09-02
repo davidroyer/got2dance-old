@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section, .section--no-hero {
   text-align: center;
-  padding: 0 0 50px 0;
+  padding: 50px 0 50px 0;
   border-bottom: 1px solid gray; }
   .section--no-hero {
     margin-top: 80px; }
@@ -203,8 +203,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #40404C;
     margin-top: 0;
+    margin-bottom: 0;
     /* TESTING NEW LAYOUT */ }
-    .section__heading.special--home, .special--home.section__heading--has-subheading {
+    .section__heading.special--home, .special--home.section__heading--has-subheading, .section__heading.special--classes, .special--classes.section__heading--has-subheading {
       position: absolute;
       bottom: 0;
       margin: 0;
@@ -212,10 +213,10 @@ h1, h2, h3, h4, h5, h6 {
       width: 100%;
       font-size: 8vw; }
       @media only screen and (min-width: 680px) {
-        .section__heading.special--home, .special--home.section__heading--has-subheading {
+        .section__heading.special--home, .special--home.section__heading--has-subheading, .section__heading.special--classes, .special--classes.section__heading--has-subheading {
           font-size: 7vw; } }
       @media only screen and (min-width: 900px) {
-        .section__heading.special--home, .special--home.section__heading--has-subheading {
+        .section__heading.special--home, .special--home.section__heading--has-subheading, .section__heading.special--classes, .special--classes.section__heading--has-subheading {
           font-size: 6vw; } }
     @media only screen and (min-width: 430px) {
       .section__heading, .section__heading--has-subheading {
@@ -590,6 +591,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     color: white;
     font-family: Vollkorn; }
+    @media only screen and (min-width: 900px) {
+      .nav__link {
+        font-size: 22px; } }
 
 #nav__close {
   display: none; }
@@ -623,7 +627,11 @@ h1, h2, h3, h4, h5, h6 {
       display: inline-block;
       padding: 10px; }
       .nav__list-item:last-of-type {
-        padding-right: 0; }
+        padding-right: 0; } }
+    @media only screen and (min-width: 900px) and (min-width: 900px) {
+      .nav__list-item {
+        margin: 3px 8px; } }
+@media only screen and (min-width: 900px) {
     .nav__link {
       color: white; } }
 
@@ -660,8 +668,6 @@ h1, h2, h3, h4, h5, h6 {
       background-color: white; }
 
 .group-classes {
-  width: 100%;
-  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -672,11 +678,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
   border-radius: 3px;
   padding: 20px 0;
-  transition: all .3s ease-in-out; }
+  transition: all .3s ease-in-out;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 400px; }
   @media only screen and (min-width: 680px) {
     .group-classes {
-      width: 46%;
-      display: inline-block;
       text-align: center;
       margin: 0 10px;
       vertical-align: top;
@@ -686,17 +694,25 @@ h1, h2, h3, h4, h5, h6 {
     .group-classes {
       width: 49%;
       margin: 0 30px; } }
+  .group-classes__row--flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
   .group-classes__heading {
     color: #40404C;
     margin: 0;
     display: block;
     font-size: 1.7em;
-    padding-top: 25px;
     margin-bottom: 10px; }
     @media only screen and (min-width: 680px) {
       .group-classes__heading {
         display: block;
-        padding: none; } }
+        padding: none;
+        padding-bottom: 25px; } }
+    @media only screen and (min-width: 900px) {
+      .group-classes__heading {
+        font-size: 2.2em; } }
   .group-classes__content__cover {
     display: none; }
     @media only screen and (min-width: 680px) {

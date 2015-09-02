@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 	
 	text-align: center;
 	@extend .clearfix;
-	padding: 0 0 50px 0;
+	padding: 50px 0 50px 0;
 	border-bottom: 1px solid gray;
 
 	
@@ -68,9 +68,10 @@ h1, h2, h3, h4, h5, h6 {
 		text-align: center;
 		color: #40404C;
 		margin-top: 0;
+		margin-bottom: 0;
 		
 
-		&.special--home {
+		&.special--home, &.special--classes {
 			position: absolute;
 			bottom: 0;
 			margin: 0;
