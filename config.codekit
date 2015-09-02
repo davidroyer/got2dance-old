@@ -135,6 +135,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/David-Jessica-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 691075,
+		"inputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/David-Jessica.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00936e+06,
+		"inputAbbreviatedPath": "\/img\/David-Jessica.jpg",
+		"outputAbbreviatedPath": "\/img\/David-Jessica.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/David.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -245,16 +267,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/home-hero.jpg": {
+	"\/img\/home-hero-1600-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.06816e+06,
-		"inputAbbreviatedPath": "\/img\/home-hero.jpg",
-		"outputAbbreviatedPath": "\/img\/home-hero.jpg",
+		"initialSize": 317511,
+		"inputAbbreviatedPath": "\/img\/home-hero-1600-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/home-hero-1600-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/img\/home-hero-1600.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 732028,
+		"inputAbbreviatedPath": "\/img\/home-hero-1600.jpg",
+		"outputAbbreviatedPath": "\/img\/home-hero-1600.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/image1.jpg": {
 		"fileType": 16384,
@@ -263,17 +296,6 @@
 		"initialSize": 579515,
 		"inputAbbreviatedPath": "\/img\/image1.jpg",
 		"outputAbbreviatedPath": "\/img\/image1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/image2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 764588,
-		"inputAbbreviatedPath": "\/img\/image2.jpg",
-		"outputAbbreviatedPath": "\/img\/image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

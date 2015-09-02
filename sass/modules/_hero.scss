@@ -1,6 +1,6 @@
 .hero {
 
-	
+	position: relative;
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -25,10 +25,17 @@
 
 	&.home {
 		
-		background-image: url("../img/home-hero-1600-mobile.jpg");
+		// background-image: url("../img/home-hero-1600-mobile.jpg");
+		// @include MQ(M) {
+
+		// 	background-image: url("../img/home-hero-1600.jpg");
+		// }
+		
+		background-position: top center;
+		background-image: url("../img/David-Jessica-mobile.jpg");
 		@include MQ(M) {
 
-			background-image: url("../img/home-hero-1600.jpg");
+			background-image: url("../img/David-Jessica.jpg");
 		}
 		
 	}
@@ -40,7 +47,11 @@
 
 	&.classes {
 
-		background-image: url("../img/Classes.jpg");
+		background-image: url("../img/classes-hero-mobile.jpg");
+		@include MQ(M) {
+
+			background-image: url("../img/classes-hero.jpg");
+		}
 	}
 
 	&.weddings {

@@ -1,6 +1,6 @@
 .form {
 	
-	font-family: Vollkorn, sans-serif, arial;
+	font-family: "Open Sans", sans-serif, arial;
 	
 	
 	@include MQ(M) {
@@ -34,6 +34,8 @@
 		width: 100%;
 		max-width: 400px;
 	    padding: 0 .5em;
+	    font-weight: 600;
+	    font-size: 17px;
 
 
 	    @include MQ(M) {

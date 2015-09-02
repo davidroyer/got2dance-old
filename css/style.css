@@ -204,6 +204,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #40404C;
     margin-top: 0;
     /* TESTING NEW LAYOUT */ }
+    .section__heading.special--home, .special--home.section__heading--has-subheading {
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      background-color: rgba(228, 228, 228, 0.71);
+      width: 100%;
+      font-size: 8vw; }
+      @media only screen and (min-width: 680px) {
+        .section__heading.special--home, .special--home.section__heading--has-subheading {
+          font-size: 7vw; } }
+      @media only screen and (min-width: 900px) {
+        .section__heading.special--home, .special--home.section__heading--has-subheading {
+          font-size: 6vw; } }
     @media only screen and (min-width: 430px) {
       .section__heading, .section__heading--has-subheading {
         font-size: 3em; } }
@@ -461,6 +474,7 @@ h1, h2, h3, h4, h5, h6 {
         display: block; } }
 
 .hero {
+  position: relative;
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
@@ -474,14 +488,18 @@ h1, h2, h3, h4, h5, h6 {
     .hero {
       height: 350px; } }
   .hero.home {
-    background-image: url("../img/home-hero-1600-mobile.jpg"); }
+    background-position: top center;
+    background-image: url("../img/David-Jessica-mobile.jpg"); }
     @media only screen and (min-width: 680px) {
       .hero.home {
-        background-image: url("../img/home-hero-1600.jpg"); } }
+        background-image: url("../img/David-Jessica.jpg"); } }
   .hero.lessons {
     background-image: url("../img/Ballroom-Partners.jpg"); }
   .hero.classes {
-    background-image: url("../img/Classes.jpg"); }
+    background-image: url("../img/classes-hero-mobile.jpg"); }
+    @media only screen and (min-width: 680px) {
+      .hero.classes {
+        background-image: url("../img/classes-hero.jpg"); } }
   .hero.weddings {
     background-image: url("../img/Wedding.jpg"); }
 
@@ -608,7 +626,7 @@ h1, h2, h3, h4, h5, h6 {
       color: white; } }
 
 .form {
-  font-family: Vollkorn, sans-serif, arial; }
+  font-family: "Open Sans", sans-serif, arial; }
   @media only screen and (min-width: 680px) {
     .form__left {
       width: 48%;
@@ -624,7 +642,9 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #ccc;
     width: 100%;
     max-width: 400px;
-    padding: 0 .5em; }
+    padding: 0 .5em;
+    font-weight: 600;
+    font-size: 17px; }
     @media only screen and (min-width: 680px) {
       .form__input, .form__textarea {
         width: 100%; } }

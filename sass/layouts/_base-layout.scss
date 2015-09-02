@@ -69,6 +69,32 @@ h1, h2, h3, h4, h5, h6 {
 		color: #40404C;
 		margin-top: 0;
 		
+
+		&.special--home {
+			position: absolute;
+			bottom: 0;
+			margin: 0;
+			background-color: rgba(228, 228, 228, 0.71);
+			width: 100%;
+			font-size: 8vw;
+
+
+			@include MQ(M) {
+
+				font-size: 7vw;
+			}
+
+
+			@include MQ(L) {
+
+				font-size: 6vw;
+			}
+		}
+
+		
+		
+		// font-size: 7vw;
+		// font-size: 6vw;
 		/* TESTING NEW LAYOUT */
 		
 		// &.special {
