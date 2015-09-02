@@ -91,28 +91,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/classes-hero-mobile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 317511,
-		"inputAbbreviatedPath": "\/img\/classes-hero-mobile.jpg",
-		"outputAbbreviatedPath": "\/img\/classes-hero-mobile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/classes-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 732028,
-		"inputAbbreviatedPath": "\/img\/classes-hero.jpg",
-		"outputAbbreviatedPath": "\/img\/classes-hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/Classes.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -179,13 +157,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/David-Jessica-mobile.jpg": {
+	"\/img\/David-Jessica.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 691075,
-		"inputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
-		"outputAbbreviatedPath": "\/img\/David-Jessica-mobile.jpg",
+		"initialSize": 159028,
+		"inputAbbreviatedPath": "\/img\/David-Jessica.jpg",
+		"outputAbbreviatedPath": "\/img\/David-Jessica.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
