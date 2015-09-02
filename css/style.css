@@ -342,12 +342,14 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block; }
     @media only screen and (min-width: 680px) {
       .media__heading {
-        display: block; } }
+        display: block;
+        font-size: 2em; } }
   .media__content__cover {
     display: none; }
     @media only screen and (min-width: 680px) {
       .media__content__cover {
-        display: block; } }
+        display: block;
+        font-size: 1.2em; } }
   .media__image {
     display: inline-block;
     position: absolute;

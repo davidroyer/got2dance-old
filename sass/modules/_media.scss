@@ -64,9 +64,11 @@
 		margin: 0;
 		display: inline-block;
 
+
 		@include MQ(M) {
 			
 			display: block;
+			font-size: 2em;
 		}
 	}
 
@@ -78,6 +80,7 @@
 		@include MQ(M) {
 			
 			display: block;
+			font-size: 1.2em;
 		}
 	}
 
