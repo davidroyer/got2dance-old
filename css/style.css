@@ -607,7 +607,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 0;
     background-color: initial;
     box-shadow: none;
-    position: relative;
+    position: inherit;
     width: initial;
     top: 0;
     right: 0;
