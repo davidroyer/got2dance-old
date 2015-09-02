@@ -474,10 +474,10 @@ h1, h2, h3, h4, h5, h6 {
     .hero {
       height: 350px; } }
   .hero.home {
-    background-image: url("../img/hero-home-small.jpg"); }
+    background-image: url("../img/home-hero-1600-mobile.jpg"); }
     @media only screen and (min-width: 680px) {
       .hero.home {
-        background-image: url("../img/Got2Dance-Main-Header.jpg"); } }
+        background-image: url("../img/home-hero-1600.jpg"); } }
   .hero.lessons {
     background-image: url("../img/Ballroom-Partners.jpg"); }
   .hero.classes {
