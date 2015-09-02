@@ -32,7 +32,10 @@
 
 	    &__row--flex {
 
-	    	display: flex;
+	    	display: -webkit-box;
+    	    display: -webkit-flex;
+    	    display: -ms-flexbox;
+    	    display: flex;
 	    }
 
 	}
@@ -52,7 +55,10 @@
 
 		@include MQ(M) {
 			
-			flex: 1;
+			-webkit-box-flex: 1;
+			-webkit-flex: 1;
+			    -ms-flex: 1;
+			        flex: 1;
 			box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
 			margin: 0 15px;
 			transition: all .3s ease-in-out;
