@@ -9,6 +9,7 @@
     z-index: 999;
     -webkit-transition: all .2s ease .3s;
     transition: all .2s ease .3s;
+    width: 46px;
     
 
     &.rotate--icon {
@@ -21,6 +22,7 @@
 
         .nav-toggle__icon {
             color: #40526B;
+            width: 30px;
             
             
         }
