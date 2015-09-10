@@ -381,7 +381,9 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
     border-radius: 50%;
     top: 15px;
-    font-family: 'Material Icons'; }
+    font-family: 'Material Icons';
+    width: 37px;
+    height: 37px; }
     @media only screen and (min-width: 680px) {
       .media i {
         display: none; } }
