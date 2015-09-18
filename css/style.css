@@ -689,7 +689,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
   background-color: white;
   border-radius: 3px;
-  padding: 20px 0;
+  padding: 20px 50px;
   transition: all .3s ease-in-out;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -705,6 +705,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-flex-basis: 400px;
   -ms-flex-preferred-size: 400px;
   flex-basis: 400px; }
+  @media only screen and (min-width: 430px) {
+    .group-classes {
+      padding: 20px; } }
   @media only screen and (min-width: 680px) {
     .group-classes {
       text-align: center;

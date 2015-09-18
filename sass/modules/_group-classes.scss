@@ -9,7 +9,7 @@
 	box-shadow: none;
     background-color: white;
     border-radius: 3px;
-    padding: 20px 0;
+    padding: 20px 50px;
     @extend %shadow;
     transition: all .3s ease-in-out;
     -webkit-box-flex: 1;
@@ -28,6 +28,11 @@
                 flex-basis: 400px;
 	
    
+	@include MQ(S) {
+
+		padding: 20px;
+	}
+
 
 	@include MQ(M) {
 		
