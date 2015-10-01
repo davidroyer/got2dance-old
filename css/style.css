@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
     -ms-transform: translateX(0px);
-    height: inherit; }
+    height: initial; }
     .nav__list {
       padding-top: 0; }
     .nav__list-item {
